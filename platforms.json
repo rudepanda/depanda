@@ -1,0 +1,9 @@
+{
+  "arch": "pacman -S",
+  "debian": "apt install",
+  "ubuntu": "apt install",
+  "mint": "apt instll",
+  "fedora": "dnf install",
+  "centos": "yum install",
+  "opensuse": "zypper install"
+}

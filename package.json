@@ -7,7 +7,7 @@
     "test": "npm test"
   },
   "bin": {
-      "depanda": "./index.js"
+    "depanda": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/rudepanda/depanda#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "shell-escape": "^0.2.0"
   }
 }

@@ -1,0 +1,18 @@
+[
+    {
+        "target": ["arch", "debian", "fedora", "brew", "gentoo"],
+        "packages": ["libncurses"]
+    },
+    {
+        "target": ["suse"],
+        "packages": ["ncurses-dev"]
+    },
+    {
+        "target": ["nuget"],
+        "packages": ["ncurses"]
+    },
+    {
+        "target": ["debian", "nuget"],
+        "packages": ["libsdl"]
+    }
+]
