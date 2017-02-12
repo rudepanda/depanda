@@ -3,6 +3,8 @@
 "use strict";
 
 const path = require("path");
+const install = require("./install");
+const parse = require("parse");
 
 // const program = require("commander");
 //
@@ -11,6 +13,8 @@ const path = require("path");
 //   .parse(process.argv);
 //
 
-const json =require(path.join(process.cwd(), "depanda.json"));
-console.log(require("./parse")(json, "debian"));
+const json = require(path.join(process.cwd(), "depanda.json"));
+const pkgs = parse(json, "debian");
+
+install(pkgs, target);
 
